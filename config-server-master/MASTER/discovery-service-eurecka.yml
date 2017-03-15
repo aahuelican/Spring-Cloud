@@ -1,0 +1,11 @@
+server:
+    port:8080
+eureka:
+    instance:
+        hostname: eureka-server
+        leaseRenewalIntervalInSeconds: 5
+    client:
+        registerWithEureka: false
+        fetchRegistry: false
+        serviceUrl:
+            defaultZone: http://localhost:8080/eureka/
