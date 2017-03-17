@@ -4,4 +4,4 @@ nombre: abner
 apellidop: Ahuelican
 apellidom: Roque
 edad: 23
-ciudades : {DF:2 años,chilpancingo:tres años}
+ciudades : [DF,chilpancingo,cuernavaca]
