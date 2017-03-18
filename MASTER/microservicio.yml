@@ -4,3 +4,8 @@ nombre: abner
 apellidop: Ahuelican
 apellidom: Roque
 edad: 23
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+
